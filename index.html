@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menautkan Google Font Kedalam File HTML-->
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Menautkan File CSS Kedalam File HTML -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Menampilkan Icon Pada Tab Browser -->
+    <link rel="icon" href="img/favicon.png">
+    <title>Bright</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a class="brand" href="index.html">Bright</a>
+
+        <nav>
+            <ul>
+                <!-- Dropdown Menu -->
+                <li class="list-items">
+                    <a href="#" id="social">Social</a>
+                    <ul id="drop-menu">
+                        <li class="dropdown">
+                            <a href="https://github.com/internetb0y"> <img src="./img/github.png" alt="github" width="20px" height="20px"> <p>Github</p> </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="https://www.linkedin.com/in/wicaksanaji"> <img src="./img/linkedin.png" alt="linkedin" width="20px" height="20px"> <p>Linkedin</p> </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="https://twitter.com/wicaksanaji_"> <img src="./img/twitter.png" alt="twitter" width="20px" height="20px"> <p>Twitter</p> </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <article>
+            <!-- Slide Image Feature -->
+            <section class="slider">
+                <button id="prev-slide" class="slide-button"><</button>
+                <section class="character">
+                    <img class="char-slide" src="./img/char/char-1.png" alt="char-1">
+                    <img class="char-slide" src="./img/char/char-2.png" alt="char-2">
+                    <img class="char-slide" src="./img/char/char-3.png" alt="char-3">
+                    <img class="char-slide" src="./img/char/char-4.png" alt="char-4">
+                    <img class="char-slide" src="./img/char/char-5.png" alt="char-5">
+                    <img class="char-slide" src="./img/char/char-6.png" alt="char-6">
+                    <img class="char-slide" src="./img/char/char-7.png" alt="char-7">
+                    <img class="char-slide" src="./img/char/char-8.png" alt="char-8">
+                </section>
+                <button id="next-slide" class="slide-button">></button>
+            </section>
+
+            <section class="textarea">
+                <p>👾 What In Your Mind ?</p>
+                <textarea name="post" id="box" cols="97" rows="3"></textarea>
+                <button id="post">Post</button>
+            </section>
+
+            <ul class="contain-post">
+                <li class="list-post">
+                    <button class="delete" id="delete"> Delete </button>
+                    <p class="text-post">
+                        I Have Interest In Cybersecurity (Penetration Testing) And Backend Developer, But My Skill Is Not Enough 🤡
+                    </p>
+                </li>
+            </ul>
+        </article>
+
+        <aside>
+            <!-- Penggunaan Non Semantic -->
+            <section class="display">
+                <img src="./img/forest.gif" alt="display">
+            </section>
+
+            <section class="profile">
+                <p> Profile </p>
+                <img class="photo" src="./img/profile.jpg" alt="me">
+                <p class="bio"> 
+                    <img src="./img/bio/graduate.png" alt="graduate">Graduate from Universitas Dian Nuswantoro
+                </p>
+                <p class="bio">
+                    <img src="./img/bio/placeholder.png" alt="graduate">Lives in Pemalang, Jawa Tengah
+                </p>
+                <p class="bio">
+                    <img src="./img/bio/worldwide.png" alt="graduate">From Indonesia
+                </p>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Aji Wicaksana | Peserta Baparekraf Digital Talent</p>
+    </footer>
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+/*
+-----------------------
+# # # Media Query # # #
+-----------------------
+- 1920px
+- 1280px
+- 960px
+- 640px
+
+Must Be Changed :
+
+- Font Size
+- Border And Border Radius
+- Margin And Padding
+*/
+
+/*
+@media screen and (max-width: 1920px)
+@media screen and (max-width: 1280px)
+@media screen and (max-width: 960px)
+@media screen and (max-width: 640px)
+*/
+
+@media screen and (max-width: 7680px) {
+    .close {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1097.14px) {
+    main {
+        width: 950px;
+    }
+    article {
+        height: 300vh;
+    }
+    .delete {
+        font-size: 10px;
+    }
+    aside {
+        height: 300vh;
+    } .display {
+        height: 135px;
+    } .bio {
+        width: 87%;
+    }
+    footer {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 100%;
+        flex-direction: column;
+    }
+    article {
+        border: none;
+        width: 100%;
+        height: auto;
+    } .textarea {
+        width: 88%;
+    } #post {
+        margin-bottom: 30px;
+    }
+    aside {
+        width: 96.3%;
+        height: auto;
+        margin-bottom: 20px;
+    } .display {
+        height: 350px;
+    } .profile {
+        width: 96.3%;
+        text-align: center;
+        border-bottom: none;
+    } .bio {
+        margin-bottom: 0;
+    }
+    footer {
+        width: 100%;
+    } footer p {
+        margin: 0 20px;
+    }
+    .close {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        margin: 0;
+        padding: 0;
+    } main {
+        width: 100%;
+    } article {
+        border: none;
+        width: 100%;
+        height: auto;
+    }.textarea {
+        width: 88%;
+    } #post {
+        margin-bottom: 30px;
+    } aside {
+        width: 96.3%;
+        height: auto;
+        margin-bottom: 20px;
+    } .display {
+        height: 350px;
+    } .profile {
+        width: 96.3%;
+        text-align: center;
+        border-bottom: none;
+    } .bio {
+        margin-bottom: 0;
+    } footer {
+        width: 100%;
+    } footer p {
+        margin: 0 20px;
+    } .close {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .delete {
+        font-size: 6.5px;
+        width: 15%;
+    }
+    .display {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .delete {
+        font-size: 6.5px;
+        width: 15%;
+    }
+    .display {
+        height: 175px;
+    }
+}
